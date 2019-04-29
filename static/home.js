@@ -1,7 +1,4 @@
 function draw_winnername_logo(username) {}
-function draw_chart(pewdiepie_subs, tseries_subs) {
-    //code
-}
 function get_sub_counts() {
     return $.get('/api/get_sub_counts')
 }
@@ -9,7 +6,7 @@ function get_sub_counts() {
 
 $(document).ready(function() {
     get_sub_counts().then(function(data) {
-        // draw_chart(data["pewdiepie"], data["tseries"]);
+        create_chart(data["tseries"], data["pewdiepie"]);
         return data["pewdiepie"] > data["tseries"];
 
     }).then(function(isPewdiepieWinner) {

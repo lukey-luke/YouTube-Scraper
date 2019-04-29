@@ -2,6 +2,9 @@ body {
     background-image: url(/static/sky.png);
 }
 
+#winner_logo {
+    text-align: center;
+}
 .animated-logo {
     animation: float-logo 7s linear infinite;
     position: relative;
@@ -14,4 +17,9 @@ body {
     50% { transform: translatex(0px) translatey(0px); }
     75% { transform: translatex(1px) translatey(4px); }
     100% { transform: translatex(0px) translatey(0px); }
+}
+
+.subscriptions-chart {
+    height: 400px;
+    width: 100%;
 }
