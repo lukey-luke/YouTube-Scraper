@@ -24,8 +24,5 @@ $(document).ready(function() {
         let imgElement = `<img class="animated-logo" src="${imgUrl}"/>`;
         console.log('doingit');
         $('#winner_logo').html(imgElement);
-        // $.get(imgUrl, (resp) => {
-        //     $('#winner_logo').html();
-        // });
     });
 });
