@@ -1,0 +1,9 @@
+.animated-logo {
+    animation: float-logo 10s infinite;
+    width: 60%;
+}
+
+@keyframes float-logo {
+    0% { top: 10px; left: 10px; }
+    100% { top: -10px; left: -10px; }
+}

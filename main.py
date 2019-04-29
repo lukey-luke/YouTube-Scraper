@@ -23,7 +23,7 @@ def get_youtube_user_sub_count(username):
         return clean_sub_count_string(sub_count)
 
 
-print('check out Day[9]')
-day9_sub_count = get_youtube_user_sub_count('day9tv')
-print(f'got {day9_sub_count}')
+pewdiepie_sub_count = get_youtube_user_sub_count('PewDiePie')
+tseries_sub_count = get_youtube_user_sub_count('tseries')
+print(f'{pewdiepie_sub_count} vs {tseries_sub_count}')
 
