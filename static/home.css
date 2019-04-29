@@ -1,5 +1,6 @@
 body {
     background-image: url(/static/sky.png);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 #winner_logo {
@@ -22,4 +23,19 @@ body {
 .subscriptions-chart {
     height: 400px;
     width: 100%;
+}
+
+.flex-container {
+    color: #eee;
+    display: flex;
+    flex-direction: row;
+    font-size: 36px;
+    font-weight: bold;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.flex-item {
+    flex: auto;
+    text-align: center;
 }
